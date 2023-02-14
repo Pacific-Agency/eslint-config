@@ -12,6 +12,7 @@
     "prettier-plugin-packagejson": "2.4.3"
   },
   "peerDependencies": {
+    "@nuxt/eslint-config": "*",
     "eslint": "*",
     "eslint-config-prettier": "*",
     "eslint-plugin-jsdoc": "*",
