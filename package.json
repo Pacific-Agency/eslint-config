@@ -2,6 +2,10 @@
   "name": "@pacific-agency/eslint-config",
   "version": "0.0.0",
   "description": "Конфигурация ESLint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pacific-Agency/eslint-config"
+  },
   "main": "index.js",
   "devDependencies": {
     "prettier": "2.8.4",
@@ -15,5 +19,6 @@
     "eslint-plugin-tsdoc": "*",
     "eslint-plugin-typescript-sort-keys": "*",
     "eslint-plugin-vue": "*"
-  }
+  },
+  "packageManager": "pnpm@7.27.0"
 }
