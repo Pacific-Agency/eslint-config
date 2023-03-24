@@ -7,6 +7,8 @@ module.exports = {
   },
   extends: [
     "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:@typescript-eslint/strict",
     "plugin:typescript-sort-keys/recommended",
     "plugin:jsdoc/recommended",
     "@nuxt/eslint-config",
@@ -16,6 +18,7 @@ module.exports = {
     ecmaVersion: "latest",
     parser: "@typescript-eslint/parser",
     sourceType: "module",
+    project: "./tsconfig.json",
   },
   plugins: [
     "@typescript-eslint",
