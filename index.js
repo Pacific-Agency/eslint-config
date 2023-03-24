@@ -18,6 +18,7 @@ module.exports = {
     sourceType: "module",
   },
   plugins: [
+    "@typescript-eslint",
     "eslint-plugin-tsdoc",
     "sort-keys-fix",
     "typescript-sort-keys",
