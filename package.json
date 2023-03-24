@@ -13,8 +13,6 @@
   },
   "peerDependencies": {
     "@nuxt/eslint-config": "*",
-    "@typescript-eslint/eslint-plugin": "*",
-    "@typescript-eslint/parser": "*",
     "eslint": "*",
     "eslint-config-prettier": "*",
     "eslint-plugin-jsdoc": "*",
