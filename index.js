@@ -41,6 +41,13 @@ module.exports = {
     "jsdoc/check-indentation": "warn",
     "jsdoc/require-param-type": "off",
     "jsdoc/require-returns-type": "off",
+    "jsdoc/tag-lines": [
+      "warn",
+      "any",
+      {
+        startLines: 1,
+      },
+    ],
     "jsdoc/sort-tags": "warn",
     "sort-keys-fix/sort-keys-fix": "error",
     "tsdoc/syntax": "error",
