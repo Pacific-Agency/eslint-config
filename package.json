@@ -1,6 +1,6 @@
 {
   "name": "@pacific-agency/eslint-config",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Конфигурация ESLint",
   "repository": {
     "type": "git",
