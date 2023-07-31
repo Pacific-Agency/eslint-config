@@ -1,0 +1,25 @@
+name: Публикация на GitHub Packages
+
+on:
+  workflow_run:
+    workflows: [Релиз проекта]
+    types: [completed]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Настройка NodeJS
+        uses: actions/setup-node@v3
+        with:
+          registry-url: https://npm.pkg.github.com/
+
+      - name: Публикация
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ github.token }}
