@@ -57,6 +57,12 @@ module.exports = {
         alphabetical: true,
       },
     ],
+    "vue/block-order": [
+      "error",
+      {
+        order: ["script", "template", "style"],
+      },
+    ],
     "vue/multi-word-component-names": "off",
     "vue/require-prop-comment": [
       "error",
