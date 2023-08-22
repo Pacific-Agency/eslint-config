@@ -11,6 +11,7 @@ module.exports = {
     "plugin:jsdoc/recommended",
     "plugin:jsonc/recommended-with-json",
     "plugin:jsonc/prettier",
+    "plugin:@intlify/vue-i18n/recommended",
     "@nuxt/eslint-config",
     "prettier",
   ],
@@ -37,6 +38,10 @@ module.exports = {
   ],
   root: true,
   rules: {
+    "@intlify/vue-i18n/no-duplicate-keys-in-locale": "error",
+    "@intlify/vue-i18n/no-missing-keys-in-other-locales": "error",
+    "@intlify/vue-i18n/no-raw-text": "off",
+    "@intlify/vue-i18n/no-unknown-locale": "error",
     "@typescript-eslint/consistent-type-imports": "error",
     "jsdoc/check-indentation": "warn",
     "jsdoc/require-param-type": "off",
@@ -72,5 +77,11 @@ module.exports = {
         type: "JSDoc",
       },
     ],
+  },
+  settings: {
+    "vue-i18n": {
+      localeDir: "./assets/lang/*.json",
+      messageSyntaxVersion: "^9.0.0",
+    },
   },
 }
