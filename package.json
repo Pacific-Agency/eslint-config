@@ -12,6 +12,7 @@
     "prettier-plugin-packagejson": "2.4.3"
   },
   "peerDependencies": {
+    "@intlify/eslint-plugin-vue-i18n": "*",
     "@nuxt/eslint-config": "*",
     "eslint": "*",
     "eslint-config-prettier": "*",
