@@ -9,7 +9,7 @@
   "main": "index.js",
   "prettier": "@pacific-agency/prettier-config",
   "dependencies": {
-    "@intlify/eslint-plugin-vue-i18n": "~2.0.0",
+    "@intlify/eslint-plugin-vue-i18n": "next",
     "@nuxt/eslint-config": "~0.1.1",
     "eslint": "~8.47.0",
     "eslint-config-prettier": "~9.0.0",
