@@ -25,3 +25,36 @@ yarn add -D @pacific-agency/eslint-config
   "extends": "@pacific-agency"
 }
 ```
+
+Добавить в файл `.vscode/settings.json`:
+
+```json
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "json",
+    "vue",
+    "typescript",
+    "typescriptreact"
+  ],
+}
+```
+
+## Проект с i18n
+
+Для использования плагина с `i18n` необходимо добавить в файл `.eslintrc`:
+
+```json
+{
+  "rules": {
+    "@intlify/vue-i18n/no-raw-text": "error",
+    "@intlify/vue-i18n/no-unused-keys": [
+      "error",
+      {
+        "enableFix": true
+      }
+    ]
+  }
+}
+```
