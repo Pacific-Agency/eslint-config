@@ -1,4 +1,16 @@
 
+## v0.5.1
+
+[compare changes](https://github.com/Pacific-Agency/eslint-config/compare/v0.5.0...v0.5.1)
+
+### 🐞 Исправления
+
+- Обновление версии `eslint-plugin-vue-i18n` до `next` ([#54](https://github.com/Pacific-Agency/eslint-config/pull/54))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v0.5.0
 
 [compare changes](https://github.com/Pacific-Agency/eslint-config/compare/v0.4.0...v0.5.0)
