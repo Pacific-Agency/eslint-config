@@ -7,10 +7,7 @@
     "url": "https://github.com/Pacific-Agency/eslint-config"
   },
   "main": "index.js",
-  "devDependencies": {
-    "prettier": "2.8.8",
-    "prettier-plugin-packagejson": "2.4.3"
-  },
+  "prettier": "@pacific-agency/prettier-config",
   "dependencies": {
     "@intlify/eslint-plugin-vue-i18n": "~2.0.0",
     "@nuxt/eslint-config": "~0.1.1",
@@ -23,6 +20,9 @@
     "eslint-plugin-tsdoc": "~0.2.17",
     "eslint-plugin-typescript-sort-keys": "~2.3.0",
     "eslint-plugin-vue": "~9.17.0"
+  },
+  "devDependencies": {
+    "@pacific-agency/prettier-config": "0.3.0"
   },
   "packageManager": "pnpm@8.6.12"
 }
