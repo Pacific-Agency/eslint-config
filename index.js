@@ -29,6 +29,7 @@ module.exports = {
   plugins: [
     "@typescript-eslint",
     "eslint-plugin-tsdoc",
+    "sort-destructure-keys",
     "sort-keys-fix",
     "typescript-sort-keys",
     "jsdoc",
@@ -49,6 +50,7 @@ module.exports = {
       },
     ],
     "jsonc/sort-keys": ["error", "asc"],
+    "sort-destructure-keys/sort-destructure-keys": "error",
     "sort-keys-fix/sort-keys-fix": "error",
     "tsdoc/syntax": "error",
     "vue/attributes-order": [
