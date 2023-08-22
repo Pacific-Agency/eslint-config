@@ -7,18 +7,24 @@ module.exports = {
   },
   extends: [
     "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "plugin:@typescript-eslint/strict",
     "plugin:typescript-sort-keys/recommended",
     "plugin:jsdoc/recommended",
+    "plugin:jsonc/recommended-with-json",
+    "plugin:jsonc/prettier",
     "@nuxt/eslint-config",
     "prettier",
+  ],
+  ignorePatterns: ["package.json"],
+  overrides: [
+    {
+      files: "*.json",
+      parser: "jsonc-eslint-parser",
+    },
   ],
   parserOptions: {
     ecmaVersion: "latest",
     parser: "@typescript-eslint/parser",
     sourceType: "module",
-    project: "./tsconfig.json",
   },
   plugins: [
     "@typescript-eslint",
@@ -31,16 +37,10 @@ module.exports = {
   root: true,
   rules: {
     "@typescript-eslint/consistent-type-imports": "error",
-    "@typescript-eslint/no-unsafe-argument": "off",
-    "@typescript-eslint/no-unsafe-assignment": "off",
-    "@typescript-eslint/no-unsafe-call": "off",
-    "@typescript-eslint/no-unsafe-member-access": "off",
-    "@typescript-eslint/no-unsafe-return": "off",
-    "@typescript-eslint/restrict-template-expressions": "off",
-    "@typescript-eslint/unbound-method": "off",
     "jsdoc/check-indentation": "warn",
     "jsdoc/require-param-type": "off",
     "jsdoc/require-returns-type": "off",
+    "jsdoc/sort-tags": "warn",
     "jsdoc/tag-lines": [
       "warn",
       "any",
@@ -48,7 +48,7 @@ module.exports = {
         startLines: 1,
       },
     ],
-    "jsdoc/sort-tags": "warn",
+    "jsonc/sort-keys": ["error", "asc"],
     "sort-keys-fix/sort-keys-fix": "error",
     "tsdoc/syntax": "error",
     "vue/attributes-order": [
