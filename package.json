@@ -17,6 +17,7 @@
     "eslint-config-prettier": "*",
     "eslint-plugin-jsdoc": "*",
     "eslint-plugin-jsonc": "*",
+    "eslint-plugin-sort-destructure-keys": "*",
     "eslint-plugin-sort-keys-fix": "*",
     "eslint-plugin-tsdoc": "*",
     "eslint-plugin-typescript-sort-keys": "*",
