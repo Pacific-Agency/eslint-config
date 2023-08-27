@@ -1,4 +1,22 @@
 
+## v0.6.0
+
+[compare changes](https://github.com/Pacific-Agency/eslint-config/compare/v0.5.1...v0.6.0)
+
+### 🚀 Улучшения
+
+- Правило `vue/no-unused-properties` ([#56](https://github.com/Pacific-Agency/eslint-config/pull/56))
+- Правило `vue/block-lang` ([#57](https://github.com/Pacific-Agency/eslint-config/pull/57))
+- Правило `vue/no-unused-refs` ([#58](https://github.com/Pacific-Agency/eslint-config/pull/58))
+
+### 🏡 Другие изменения
+
+- Обновление зависимостей ([#59](https://github.com/Pacific-Agency/eslint-config/pull/59))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v0.5.1
 
 [compare changes](https://github.com/Pacific-Agency/eslint-config/compare/v0.5.0...v0.5.1)
