@@ -64,6 +64,14 @@ module.exports = {
         alphabetical: true,
       },
     ],
+    "vue/block-lang": [
+      "error",
+      {
+        script: {
+          lang: "ts",
+        },
+      },
+    ],
     "vue/block-order": [
       "error",
       {
