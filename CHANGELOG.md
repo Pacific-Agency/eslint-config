@@ -1,4 +1,24 @@
 
+## v0.7.0
+
+[compare changes](https://github.com/Pacific-Agency/eslint-config/compare/v0.6.0...v0.7.0)
+
+### 🚀 Улучшения
+
+- Правило `vue/no-setup-props-reactivity-loss` ([#62](https://github.com/Pacific-Agency/eslint-config/pull/62))
+
+### 🐞 Исправления
+
+- Отключение правила `vue/no-unused-properties` ([#60](https://github.com/Pacific-Agency/eslint-config/pull/60))
+
+### 🏡 Другие изменения
+
+- Обновление зависимостей ([#63](https://github.com/Pacific-Agency/eslint-config/pull/63))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v0.6.0
 
 [compare changes](https://github.com/Pacific-Agency/eslint-config/compare/v0.5.1...v0.6.0)
