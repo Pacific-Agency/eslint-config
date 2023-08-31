@@ -79,6 +79,7 @@ module.exports = {
       },
     ],
     "vue/multi-word-component-names": "off",
+    "vue/no-setup-props-reactivity-loss": "error",
     "vue/no-unused-refs": "error",
     "vue/require-prop-comment": [
       "error",
