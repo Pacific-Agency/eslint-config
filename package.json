@@ -10,15 +10,15 @@
   "prettier": "@pacific-agency/prettier-config",
   "dependencies": {
     "@intlify/eslint-plugin-vue-i18n": "next",
-    "@nuxt/eslint-config": "~0.1.1",
+    "@nuxt/eslint-config": "~0.2.0",
     "eslint": "~8.48.0",
     "eslint-config-prettier": "~9.0.0",
-    "eslint-plugin-jsdoc": "~46.5.0",
+    "eslint-plugin-jsdoc": "~46.5.1",
     "eslint-plugin-jsonc": "~2.9.0",
     "eslint-plugin-sort-destructure-keys": "~1.5.0",
     "eslint-plugin-sort-keys-fix": "~1.1.2",
     "eslint-plugin-tsdoc": "~0.2.17",
-    "eslint-plugin-typescript-sort-keys": "~2.3.0",
+    "eslint-plugin-typescript-sort-keys": "~3.0.0",
     "eslint-plugin-vue": "~9.17.0"
   },
   "devDependencies": {
