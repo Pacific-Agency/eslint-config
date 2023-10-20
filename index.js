@@ -39,6 +39,7 @@ module.exports = {
   root: true,
   rules: {
     "@intlify/vue-i18n/no-duplicate-keys-in-locale": "error",
+    "@intlify/vue-i18n/no-html-messages": "off",
     "@intlify/vue-i18n/no-missing-keys-in-other-locales": "error",
     "@intlify/vue-i18n/no-raw-text": "off",
     "@intlify/vue-i18n/no-unknown-locale": "error",
