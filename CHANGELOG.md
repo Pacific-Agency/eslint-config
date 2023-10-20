@@ -1,4 +1,16 @@
 
+## v0.7.1
+
+[compare changes](https://github.com/Pacific-Agency/eslint-config/compare/v0.7.0...v0.7.1)
+
+### 🐞 Исправления
+
+- Отключение правила `@intlify/vue-i18n/no-html-messages` ([#64](https://github.com/Pacific-Agency/eslint-config/pull/64))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v0.7.0
 
 [compare changes](https://github.com/Pacific-Agency/eslint-config/compare/v0.6.0...v0.7.0)
